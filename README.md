@@ -1,4 +1,4 @@
-# App Name: Counter Test Task
+# App Name: Counter
 This app has been developed with Angular 10 (for the frontend development)
 and Django 3 (for the backend development).
 
