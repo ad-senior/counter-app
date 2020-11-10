@@ -17,12 +17,12 @@ and Django 3 (for the backend development).
     ```bash
     pip install -r requirements.txt
     ```
-- Please make sure the db connection in the ./counter/settings.py is correct.
+- Please make sure the db connection configuration is correct in the ./counter/settings.py.
 - Migrate models using the bellow command:
     ```bash
     python manage.py migrate
     ```
-- Make sure you entered the correct username in ./api/management/commands/cron_set.py
+- Please make sure you entered the correct username in ./api/management/commands/cron_set.py
 - Set up a cron job to reset the count in database to 2 every monday:
     ```bash
     python manage.py cron_set
