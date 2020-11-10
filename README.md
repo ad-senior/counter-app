@@ -1,5 +1,18 @@
-## Title: Counter Test Task
-## Deployment
+# App Name: Counter Test Task
+This app has been developed with Angular 10 (for the frontend development)
+and Django 3 (for the backend development).
+
+## 1. Frontend
+### Deployment
+- Go to the `counter-client` directory.
+- Run the frontend locally using the bello command:
+    ```bash
+    npm install && npm start
+    ```
+
+## 2. Backend
+### Deployment
+- Go to the `counter-server` directory.
 - Install packages in the requirements.txt like so:
     ```bash
     pip install -r requirements.txt
@@ -20,14 +33,14 @@
     python manage.py runserver
     ```
 
-## API Information
+### API Information
 | Type | Endpoint | Description |
 | :--- | :--- | :--- |
 | GET | `/api/counter/` | Return the count number |
 | POST | `/api/counter/` | Reduce the count number by one |
 | POST | `/api/counter/reset/` | Reset the count number to 2 |
 
-## Unit tests
+### Unit tests
 - Please run the bellow command to run tests:
     ```bash
     python manage.py test
